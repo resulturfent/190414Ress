@@ -1702,6 +1702,7 @@
     <Compile Include="Areas\AdminPaneli\AdminPaneliAreaRegistration.cs" />
     <Compile Include="Areas\AdminPaneli\Controllers\DefaultController.cs" />
     <Compile Include="Areas\AdminPaneli\Controllers\KategorilerController.cs" />
+    <Compile Include="Controllers\EtiketlerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MakalelerController.cs" />
     <Compile Include="Global.asax.cs">
@@ -1923,6 +1924,7 @@
     <Content Include="Views\Home\HomeIndex.cshtml" />
     <Content Include="Views\Makaleler\MakaleListesiIndex.cshtml" />
     <Content Include="Views\Home\PartialKategoriListesi.cshtml" />
+    <Content Include="Views\Etiketler\EtiketlerListesiIndex.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
