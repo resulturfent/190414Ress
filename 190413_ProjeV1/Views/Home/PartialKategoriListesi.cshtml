@@ -1,0 +1,27 @@
+﻿@model List<_190413_ProjeV1.Models.Kategoriler>
+
+
+<!--***************-->
+@foreach (var item in Model)
+{
+    if (item.KategorilerID%2==0)
+    {
+        <div class="col-lg-6">
+            <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="#">@item.KategoriAdi</a>
+                </li>
+            </ul>
+        </div>
+    }
+    else
+    {
+        <div class="col-lg-6">
+            <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="#">@item.KategoriAdi</a>
+                </li>
+            </ul>
+        </div>
+    }
+}
